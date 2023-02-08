@@ -1,0 +1,37 @@
+/* Write your CSS code here */
+.title {
+  font-family: 'Roboto';
+  color: #12022f;
+}
+
+.description {
+  color: #9aa5b1;
+  font-family: 'Roboto';
+}
+
+.item-container {
+  display: flex;
+  flex-direction: column;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.date {
+  color: #9aa5b1;
+  font-family: 'Roboto';
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 15px;
+  }
+  .description {
+    font-size: 10px;
+  }
+  .date {
+    font-size: 10px;
+  }
+}

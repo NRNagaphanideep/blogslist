@@ -1,0 +1,10 @@
+/* Write your CSS code here */
+.blog-list-container {
+  padding: 10px 30px;
+}
+
+@media (max-width: 767px) {
+  .blog-list-container {
+    padding: 5px 10px;
+  }
+}
